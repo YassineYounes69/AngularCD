@@ -1,0 +1,8 @@
+localhost ansible_connection=local
+
+[server]
+localhost    ansible_user=ahmed   ansible_become_pass=ahmed
+
+[server:vars]
+ansible_python_interpreter= /usr/bin/python3
+ansi_user= ahmed
